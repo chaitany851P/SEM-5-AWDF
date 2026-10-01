@@ -1,0 +1,13 @@
+{
+  "name": "practical-04-task-manager-api",
+  "version": "1.0.0",
+  "description": "Task Management REST API with Express and Middleware Pipeline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
