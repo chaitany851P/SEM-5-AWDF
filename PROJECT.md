@@ -1,12 +1,12 @@
-# Advanced Web Development Frameworks (ITUE301) - Lab Work
+# Advanced Web Development Frameworks (ITUE301) - Complete Practical Portfolio
 
-This repository contains the complete implementation of Practicals 1 through 9 for the 5th Semester B.Tech Information Technology curriculum at Charotar University of Science and Technology (CSPIT - IT), based on [AWDF_PL.pdf](file:///D:/SEM-5/awdf/AWDF_PL.pdf).
+This repository contains the complete implementation of **all 13 Practicals** for the 5th Semester B.Tech Information Technology curriculum at Charotar University of Science and Technology (CSPIT - IT), based on [AWDF_PL.pdf](file:///D:/SEM-5/awdf/AWDF_PL.pdf).
 
 ---
 
-## 📁 Practical Directory Index & Progression
+## 📁 Complete Directory Index & Architectural Progression
 
-Each practical carries forward the previous practical's work in an incremental, modular architecture:
+Every practical carries forward the foundation of previous practicals in a continuous full-stack progression:
 
 | Practical | Module Title | Tech Stack | Carried Forward From | Core Deliverables |
 | :--- | :--- | :--- | :--- | :--- |
@@ -18,7 +18,11 @@ Each practical carries forward the previous practical's work in an incremental, 
 | [**Practical-06**](file:///D:/SEM-5/awdf/Practical-06) | Full Stack Integration | React + Express + MongoDB | Practicals 3 & 5 | Wires React frontend to Express backend, enables CORS, central `api.js` service, Task UI with full CRUD, toast feedback, delete confirmation dialog. |
 | [**Practical-07**](file:///D:/SEM-5/awdf/Practical-07) | JWT Authentication & Security | bcryptjs, jsonwebtoken | Practical 6 | User registration and login, password hashing with bcrypt, JWT token issuing and verification middleware, protected Task CRUD routes, session expiration handling. |
 | [**Practical-08**](file:///D:/SEM-5/awdf/Practical-08) | Performance Optimization & Lazy Loading | React.lazy, Suspense | Practical 7 | Route-based code splitting, `<Suspense>` fallback UI, on-demand chunk loading, bundle size and network profiling documentation in `PERFORMANCE.md`. |
-| [**Practical-09**](file:///D:/SEM-5/awdf/Practical-09) | In-Memory Caching & Query Optimization | node-cache, Express | Practical 7 & 8 | Server-side RAM caching for `GET /tasks` with 60s TTL, automatic cache invalidation on `POST`/`PUT`/`DELETE`, cache stats endpoint, response time benchmark in `BENCHMARK.md`. |
+| [**Practical-09**](file:///D:/SEM-5/awdf/Practical-09) | In-Memory Caching & Query Optimization | node-cache, Express | Practicals 7 & 8 | Server-side RAM caching for `GET /tasks` with 60s TTL, automatic cache invalidation on `POST`/`PUT`/`DELETE`, cache stats endpoint, response time benchmark in `BENCHMARK.md`. |
+| [**Practical-10**](file:///D:/SEM-5/awdf/Practical-10) | Event-Driven Async Processing | Node.js EventEmitter | Practical 9 | Background processing decoupled from HTTP request loop via native `EventEmitter`, immediate 201 response, deferred task notifications, timestamp evidence in `EVENT_EVIDENCE.md`. |
+| [**Practical-11**](file:///D:/SEM-5/awdf/Practical-11) | Multi-Container Docker Orchestration | Docker, Docker Compose | Practicals 6–10 | Multi-stage frontend `Dockerfile`, backend Node `Dockerfile`, `docker-compose.yml` linking frontend (5173), backend (5000), and MongoDB (27017) over an internal bridge network with persistent volumes. |
+| [**Practical-12**](file:///D:/SEM-5/awdf/Practical-12) | Automated CI/CD Pipeline | GitHub Actions, Jest, Supertest | Practical 11 | `.github/workflows/ci.yml` running linting and automated endpoint test suites on push/PR, with deliberate failure demonstration mode and status badge. |
+| [**Practical-13**](file:///D:/SEM-5/awdf/Practical-13) | AI API Integration & Responsible AI | Google Gemini / OpenAI, Node.js | Practicals 6–12 | Server-side AI endpoint (`/api/ai/generate-description`) with rate limiting, server-only secret isolation, user-in-the-loop editable suggestions, AI disclaimers, and local graceful failure fallback. |
 
 ---
 
@@ -40,16 +44,29 @@ npm start
 # Port: http://localhost:5000
 ```
 
-### Full-Stack Practicals (6, 7, 8, 9)
-For full-stack practicals, open two terminal windows:
+### Full-Stack Practicals (6, 7, 8, 9, 10, 13)
+Open two terminal windows:
 ```bash
 # Terminal 1 - Backend
-cd Practical-06/backend   # (or 07, 08, 09)
+cd Practical-13/backend   # (or 06, 07, 08, 09, 10)
 npm install
 npm start
 
 # Terminal 2 - Frontend
-cd Practical-06/frontend  # (or 07, 08, 09)
+cd Practical-13/frontend  # (or 06, 07, 08, 09, 10)
 npm install
 npm run dev
+```
+
+### Containerized Stack (Practical 11)
+```bash
+cd Practical-11
+docker-compose up --build
+```
+
+### Automated CI/CD Testing (Practical 12)
+```bash
+cd Practical-12/backend
+npm install
+npm test
 ```

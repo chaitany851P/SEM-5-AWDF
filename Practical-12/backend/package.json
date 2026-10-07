@@ -1,0 +1,31 @@
+{
+  "name": "practical-12-ci-cd-pipeline",
+  "version": "1.0.0",
+  "description": "Task Management API with Automated CI/CD Pipeline via GitHub Actions and Automated Jest Tests",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "lint": "node -c server.js",
+    "test": "jest --detectOpenHandles --forceExit",
+    "test:deliberate-fail": "cross-env FAIL_TEST=true jest --detectOpenHandles --forceExit"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 10000
+  }
+}
