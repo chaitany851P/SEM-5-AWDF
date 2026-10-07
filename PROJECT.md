@@ -28,7 +28,18 @@ Every practical carries forward the foundation of previous practicals in a conti
 
 ## 🚀 Quick Execution Guide
 
-### Frontend Practicals (1, 2, 3)
+## ⚡ 1-Click Execution Scripts (`start.bat` & `stop.bat`)
+
+Every practical folder includes pre-configured **`start.bat`** and **`stop.bat`** scripts:
+- **`start.bat`**: Automatically checks requirements, installs packages (if missing), starts the dev servers in titled terminal windows, and opens your browser.
+- **`stop.bat`**: Gracefully kills the respective processes and releases ports 5000 and 5173.
+- **`stop-all.bat` (Root)**: One-click script in the repository root that halts all running practical servers and Docker containers across the entire project.
+
+---
+
+### Manual Terminal Commands (Alternative)
+
+#### Frontend Practicals (1, 2, 3)
 ```bash
 cd Practical-01   # or Practical-02 or Practical-03
 npm install
