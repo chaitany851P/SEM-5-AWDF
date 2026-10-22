@@ -1,6 +1,44 @@
 # Advanced Web Development Frameworks (ITUE301) - Complete Practical Portfolio
 
-This repository contains the complete implementation of **all 13 Practicals** for the 5th Semester B.Tech Information Technology curriculum at Charotar University of Science and Technology (CSPIT - IT), based on [AWDF_PL.pdf](file:///D:/SEM-5/awdf/AWDF_PL.pdf).
+This repository contains the complete implementation of **all 13 Practicals** for the 5th Semester B.Tech Computer Engineering curriculum at Charotar University of Science and Technology (DEPSTAR / CSPIT - CE), based on [AWDF_PL.pdf](file:///D:/SEM-5/awdf/AWDF_PL.pdf).
+
+- **Student Name**: `Chaitany Thakar`
+- **Student ID**: `D25DCE169`
+- **Department**: `Department of Computer Engineering`
+- **Academic Year**: 2026-27 [ODD]
+- **GitHub Repository**: [https://github.com/chaitany851P/SEM-5-AWDF](https://github.com/chaitany851P/SEM-5-AWDF)
+
+---
+
+## 📕 Complete Master Submission PDF (All Practicals 1 to 13)
+
+- **Master PDF (All 13 Practicals Combined, 92 Pages)**: [Practical_All_1_to_13_Chaitany_Thakar_D25DCE169.pdf](file:///D:/SEM-5/awdf/Practical_All_1_to_13_Chaitany_Thakar_D25DCE169.pdf) *(6.81 MB — Native Word-rendered PDF with all high-resolution screenshots, benchmark tables, and code listings)*
+- **Alternative Link**: [Practical_All_1_to_13_D25DCE169.pdf](file:///D:/SEM-5/awdf/Practical_All_1_to_13_D25DCE169.pdf)
+
+---
+
+## 📄 Laboratory Submission Files (.docx)
+
+All submission documents have been generated in full compliance with university guidelines:
+
+| File Name | Description | Paras | Link |
+| :--- | :--- | :--- | :--- |
+| **`Practical_All_1_to_13_Chaitany_Thakar_D25DCE169.pdf`** | **Master Complete PDF File (All Practicals 1 to 13, 92 Pages)** | **92 Pages** | [**Open Master PDF**](file:///D:/SEM-5/awdf/Practical_All_1_to_13_Chaitany_Thakar_D25DCE169.pdf) |
+| **`Practical_All_1_to_13_Chaitany_Thakar_D25DCE169.docx`** | Complete Master Laboratory Word Document (All Practicals 1 to 13) | 2,509 | [Open Master Docx](file:///D:/SEM-5/awdf/Practical_All_1_to_13_Chaitany_Thakar_D25DCE169.docx) |
+| **`Practical_1_to_7_D25DCE169.docx`** | Consolidated Submission: Practicals 1 to 7 | 1,681 | [Open Doc](file:///D:/SEM-5/awdf/Practical_1_to_7_D25DCE169.docx) |
+| **`Practical_01_D25DCE169.docx`** | Practical 1: Introduction to React & Component Architecture | 204 | [Open Doc](file:///D:/SEM-5/awdf/Practical_01_D25DCE169.docx) |
+| **`Practical_02_D25DCE169.docx`** | Practical 2: State Management & Routing in React | 350 | [Open Doc](file:///D:/SEM-5/awdf/Practical_02_D25DCE169.docx) |
+| **`Practical_03_D25DCE169.docx`** | Practical 3: API Integration & Data Rendering in React | 275 | [Open Doc](file:///D:/SEM-5/awdf/Practical_03_D25DCE169.docx) |
+| **`Practical_04_D25DCE169.docx`** | Practical 4: RESTful API with Node.js & Express | 222 | [Open Doc](file:///D:/SEM-5/awdf/Practical_04_D25DCE169.docx) |
+| **`Practical_05_D25DCE169.docx`** | Practical 5: MongoDB Integration & Schema Design with Mongoose | 158 | [Open Doc](file:///D:/SEM-5/awdf/Practical_05_D25DCE169.docx) |
+| **`Practical_06_D25DCE169.docx`** | Practical 6: Full Stack Integration (React + Node + MongoDB) | 286 | [Open Doc](file:///D:/SEM-5/awdf/Practical_06_D25DCE169.docx) |
+| **`Practical_07_D25DCE169.docx`** | Practical 7: Authentication & Middleware Pipeline (JWT) | 312 | [Open Doc](file:///D:/SEM-5/awdf/Practical_07_D25DCE169.docx) |
+| **`Practical_08_D25DCE169.docx`** | Practical 8: Performance Optimization & Lazy Loading in React | 184 | [Open Doc](file:///D:/SEM-5/awdf/Practical_08_D25DCE169.docx) |
+| **`Practical_09_D25DCE169.docx`** | Practical 9: In-Memory Caching & Query Optimization (node-cache) | 168 | [Open Doc](file:///D:/SEM-5/awdf/Practical_09_D25DCE169.docx) |
+| **`Practical_10_D25DCE169.docx`** | Practical 10: Asynchronous Processing with Event-Driven Architecture | 128 | [Open Doc](file:///D:/SEM-5/awdf/Practical_10_D25DCE169.docx) |
+| **`Practical_11_D25DCE169.docx`** | Practical 11: Containerization with Docker & Docker Compose | 153 | [Open Doc](file:///D:/SEM-5/awdf/Practical_11_D25DCE169.docx) |
+| **`Practical_12_D25DCE169.docx`** | Practical 12: CI/CD Pipeline with GitHub Actions & Automated Jest Tests | 158 | [Open Doc](file:///D:/SEM-5/awdf/Practical_12_D25DCE169.docx) |
+| **`Practical_13_D25DCE169.docx`** | Practical 13: AI API Integration into a Web Application & Responsible AI | 164 | [Open Doc](file:///D:/SEM-5/awdf/Practical_13_D25DCE169.docx) |
 
 ---
 
